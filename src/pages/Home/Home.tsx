@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div>
       <Header />
-      <div className="relative flex flex-row justify-between gap-4 mt-20 pb-28 lg:pb-5">
+      <div className="relative flex flex-row justify-between gap-4 mt-24 pb-28 lg:pb-5">
         <HomeNavigation />
         <Fixtures />
         <BetList />
