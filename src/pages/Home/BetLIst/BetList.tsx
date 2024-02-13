@@ -16,7 +16,7 @@ const BetList = () => {
   }, []);
 
   return (
-    <div className="w-96  hidden md:flex sticky top-20 overflow-y-scroll  h-[85vh]">
+    <div className="w-96  hidden md:flex sticky top-24 overflow-y-scroll  h-[85vh]">
       <div className="w-full px-3">
         {state?.choosenGamesList.length > 0 ? (
           <div>
