@@ -7,9 +7,9 @@
     --green: #60991a;
     --red:rgba(231, 17, 17, 0.89);
 
-    --main-background-color: #16202c;
+    --main-background-color: #171717;
     --light-black:: #23313d;
-    --lightBlue-background: #23313d;
+    --lightBlue-background: #3b3b3b98;
     --yellow-background-color: #fdfd1d;
     --text-white: hsla(0, 0%, 100%, 0.95);
     --dark-white: rgba(255,255,255,0.7)
@@ -68,7 +68,7 @@ input {
   width: 100%;
   height: 42px;
   border-radius: 7px;
-  background-color: #23313d;
+  background-color: var(--lightBlue-background);
   border: none;
   outline: none;
   padding: 0px 12px;
