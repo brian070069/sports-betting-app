@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --green: #60991a;
+    --red:rgba(231, 17, 17, 0.89);
+
+    --main-background-color: #16202c;
+    --light-black:: #23313d;
+    --lightBlue-background: #23313d;
+    --yellow-background-color: #fdfd1d;
+    --text-white: hsla(0, 0%, 100%, 0.95);
+    --dark-white: rgba(255,255,255,0.7)
+  }
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+.headerBottom {
+  overflow-x: hidden;
+
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: #777676;
+  border-radius: 5px;
+}
+
+@-moz-document url-prefix() {
+  .scroller {
+    scrollbar-width: none;
+    scrollbar-color: #777676;
+  }
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--main-background-color);
+  color: var(--text-white);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+button:hover {
+  cursor: pointer;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+input {
+  width: 100%;
+  height: 42px;
+  border-radius: 7px;
+  background-color: #23313d;
+  border: none;
+  outline: none;
+  padding: 0px 12px;
+}
+input:focus{
+  outline: 1px solid var(--green);
+  
+}

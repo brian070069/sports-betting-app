@@ -1,0 +1,88 @@
+{
+  "fixtuers": [
+    {
+      "id": "1",
+      "teams": {
+        "homeTeam": "chealsea",
+        "awayTeam": "manchester-united"
+      },
+      "odds": {
+        "homeOdds": 1.45,
+        "draw": 3.56,
+        "awayOdds": 5.34
+      }
+    },
+    {
+      "id": "2",
+      "teams": {
+        "homeTeam": "man-city",
+        "awayTeam": "evetorn"
+      },
+      "odds": {
+        "homeOdds": 1.21,
+        "draw": 6.9,
+        "awayOdds": 12.04
+      }
+    },
+    {
+      "id": "3",
+      "teams": {
+        "homeTeam": "wolves",
+        "awayTeam": "new-castle"
+      },
+      "odds": {
+        "homeOdds": 10.45,
+        "draw": 7.25,
+        "awayOdds": 1.34
+      }
+    },
+    {
+      "id": "4",
+      "teams": {
+        "homeTeam": "LiverPool",
+        "awayTeam": "watford"
+      },
+      "odds": {
+        "homeOdds": 1.33,
+        "draw": 5.26,
+        "awayOdds": 15.04
+      }
+    },
+    {
+      "id": "5",
+      "teams": {
+        "homeTeam": "Arsenal",
+        "awayTeam": "westham"
+      },
+      "odds": {
+        "homeOdds": 2.45,
+        "draw": 6.3,
+        "awayOdds": 8.9
+      }
+    },
+    {
+      "id": "6",
+      "teams": {
+        "homeTeam": "Real-Madrid",
+        "awayTeam": "Brossia-Dortmont"
+      },
+      "odds": {
+        "homeOdds": 3.21,
+        "draw": 6.55,
+        "awayOdds": 5.34
+      }
+    },
+    {
+      "id": "7",
+      "teams": {
+        "homeTeam": "Psg",
+        "awayTeam": "celtic"
+      },
+      "odds": {
+        "homeOdds": 1.51,
+        "draw": 2.46,
+        "awayOdds": 2.02
+      }
+    }
+  ]
+}
